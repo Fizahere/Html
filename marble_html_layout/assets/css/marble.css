@@ -1,0 +1,137 @@
+*{
+            font-family: "Trebuchet MS";
+        }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS";
+}
+
+header{
+    background-color: rgb(243, 241, 238);
+    display: flex;
+
+}
+
+.unorder{
+    display: flex;
+    float: right;
+    margin-left: 1100px;
+}
+.unorder li{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 13px;
+   
+}
+.logo{
+    margin-left: 40px;
+}
+.main-img img{
+    width: 100%;
+}
+.work-sec{
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.work-item{
+    width: 15%;
+    color: rgb(95, 94, 94);
+}
+.work-item:nth-child(1){
+  margin-left: 20%;
+}
+   
+   h5{
+    color: rgb(173, 172, 172);
+    margin-top: -10px;
+   }
+
+.container{
+    display: flex;
+    margin-top: 30px;
+   padding-top: 60px;
+   color: rgb(95, 94, 94);
+
+}
+
+.l_work{
+   width: 20%;
+   margin-left: 15px;
+}
+ .f_chid{
+margin-left: 360px;
+margin-top: 18px;
+ }
+
+ .gray-sec{
+    background-color: rgb(243, 241, 238);
+    padding: 30px;
+    text-align: center;
+    color: rgb(85, 84, 84);
+    margin-top: 40px;
+ }
+ 
+ footer{
+    background-color: rgb(46, 45, 45);
+    color: rgb(141, 139, 139);
+    display: flex;
+    padding: 30px;
+    padding-bottom: 90px;
+    padding-top: 40px;
+
+ }
+ 
+ .f_ul li{
+    margin-left: 310px;
+    list-style: none;
+  
+ }
+
+ 
+ .s_ul li{
+    margin-left: 40px;
+
+    list-style: none;
+ }
+ .t_ul li{
+    margin-left: 40px;
+
+    list-style: none;
+ }
+ .l_ul{
+    margin-left: 40px;
+
+    list-style: none;
+
+ }
+
+
+ /* mediaqueries */
+
+ @media(max-width:1951px){
+    
+    /* header{
+        background-color: rgb(243, 241, 238);
+        display: flex;
+    
+    }
+     */
+    .unorder{
+        display: flex;
+        float: right;
+        /* margin-left:900px; */
+    }
+    .unorder li{
+        list-style-type: none;
+        margin-left: 40px;
+        margin-top: 13px;
+       
+    }
+    .logo{
+        margin-left: 40px;
+    }
+ }
